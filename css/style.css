@@ -27,6 +27,26 @@ img{
     width: 100%;
     display: block;
 }
+
+.table{
+    width: calc(100% / 3 - 50px);
+}
+
+h3{
+    font-size: 25px;
+    margin-bottom: 25px;
+}
+
+h5{
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+.body-table div{
+    font-size: 13px;
+    color: gray;
+    margin-bottom: 50px;
+}
 /* --------------------------------------------------- */
 
 /* TYPO */
@@ -62,7 +82,7 @@ header nav ul li{
     margin: 0px 20px;
     font-size: 15px;
 }
-
+/* ----------------------------------------------------------------------- */
 /* ----------------------------------------------------------------------- */
 /* MAIN */
 
@@ -107,7 +127,7 @@ h1{
     width: 70%;
 }
 
-/* --------------------------------------------------------------------------- */
+/* -------------------------------------- */
 
 /* SECTIOM PLAN */
 
@@ -125,4 +145,50 @@ h1{
 
 .plan .cnt-sml span{
     margin-right: 45px;
+}
+/* -------------------------------------- */
+/* SECTIOM PRICES */
+
+.prices{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.tit-table{
+    padding: 15px 0;
+    text-align: center;
+}
+
+.table > div{
+    border: 1px solid #d0d0d3;
+}
+.body-table{
+    padding: 40px 30px 50px;
+}
+
+.body-table .benefits li{
+    margin-bottom: 25px;
+    
+}
+
+.prices .benefits i{
+    margin-right: 5px;
+}
+
+.prices .body-table .btn{
+    margin: 35px 0;
+}
+
+.prices .body-table hr{
+    width: 20%;
+    color: gray;
+    margin: 45px 0;
+}
+
+.prices .benefits i.fa-sharp.fa-solid.fa-check{
+    color: #426dff;
+    font-weight: bold;
 }
