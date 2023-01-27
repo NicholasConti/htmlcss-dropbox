@@ -4,3 +4,48 @@
     box-sizing: border-box;
 }
 /* ---------------------------------------------- */
+/* COMMON */
+.button{
+    color: white;
+    font-size: 15px;
+    padding: 10px 15px;
+    background-color: #0061ff;
+}
+
+/* --------------------------------------------------- */
+
+/* TYPO */
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+ul{
+    list-style-type: none;
+}
+/* --------------------------------------------------------- */
+/* HEADER */
+
+header{
+   align-items: center;
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    padding: 0 20px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+}
+
+header nav ul{
+    display: flex;
+    align-items: center;
+}
+
+header nav ul li{
+    margin: 0px 20px;
+    font-size: 15px;
+}
+
+/* ----------------------------------------------------------------------- */
