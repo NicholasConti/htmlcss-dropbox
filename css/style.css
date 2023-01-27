@@ -5,13 +5,27 @@
 }
 /* ---------------------------------------------- */
 /* COMMON */
-.button{
+.btn{
     color: white;
     font-size: 15px;
     padding: 10px 15px;
     background-color: #0061ff;
+    border: none;
 }
 
+.cnt-big{
+    width: 65%;
+    margin: 0 auto;
+}
+
+.cnt-sml{
+    width: 52%;
+}
+
+img{
+    width: 100%;
+    display: block;
+}
 /* --------------------------------------------------- */
 
 /* TYPO */
@@ -26,7 +40,7 @@ ul{
 /* HEADER */
 
 header{
-   align-items: center;
+    align-items: center;
     display: flex;
     justify-content: space-between;
     height: 80px;
@@ -49,3 +63,47 @@ header nav ul li{
 }
 
 /* ----------------------------------------------------------------------- */
+/* MAIN */
+
+/* SECTION JUMBOTRON */
+.jumbo{
+    background-color: #b4d0e7;
+    padding-top: 100px;
+}
+
+h1{
+    font-size: 90px;
+    font-weight: 900;
+}
+
+.jumbotron{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    position: relative;
+    top: 75px;
+}
+
+.jumbotron article{
+    width: 30%;
+}
+
+.jumbotron article p{
+    line-height: 1.5em;
+    font-size: 17px;
+}
+
+.jumbotron article .btn{
+    margin: 35px 0;
+}
+
+.jumbotron article i{
+    font-size: 55px;
+    margin-top: 60px;
+}
+
+.img-jumbo{
+    width: 70%;
+}
+
+/* --------------------------------------------------------------------------- */
