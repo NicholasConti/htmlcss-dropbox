@@ -129,7 +129,7 @@ h1{
 
 /* -------------------------------------- */
 
-/* SECTIOM PLAN */
+/* SECTION PLAN */
 
 .plan{
     padding-top: 160px;
@@ -147,7 +147,7 @@ h1{
     margin-right: 45px;
 }
 /* -------------------------------------- */
-/* SECTIOM PRICES */
+/* SECTION PRICES */
 
 .prices{
     width: 100%;
@@ -214,6 +214,32 @@ h1{
 
 .enterprise > .body-table > div:last-child{
     align-self: flex-start;
+}
+
+/* --------------------------------------------------- */
+/* SECTION PARTNER */
+
+.partner{
+    margin-top: 150px;
+}
+.partner .cnt-sml{
+    display: flex;
+    justify-content: space-between;
+}
+
+.partner .cnt-sml .img-partner{
+    width: 60%;
+}
+.partner .cnt-sml .description{
+    width: 40%;
+    padding: 50px;
+}
+
+#btn-partner{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    margin-top: 35px;
 }
 
 /* --------------------------------------------------- */
