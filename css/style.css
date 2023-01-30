@@ -358,3 +358,22 @@ h1{
 .prova .cnt-sml h2{
     color: #61082b;
 }
+/* --------------------------------------------------- */
+/* SECTION FAQ */
+.faq{
+    padding: 150px 0;
+}
+
+.faq .cnt-sml .faq-row h5{
+    margin: 0;
+}
+.faq-cnt{
+    border-top: 1px solid grey;
+}
+.faq-row{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0;
+    border-bottom: 1px solid grey;
+}
+/* --------------------------------------------------- */
