@@ -42,7 +42,7 @@ h5{
     margin-bottom: 20px;
 }
 
-.body-table div{
+.table .body-table div{
     font-size: 13px;
     color: gray;
     margin-bottom: 50px;
@@ -160,26 +160,30 @@ h1{
 .tit-table{
     padding: 15px 0;
     text-align: center;
+    border-bottom: 1px solid #d0d0d3;
 }
 
-.table > div{
+.prices > .table{
     border: 1px solid #d0d0d3;
 }
+
 .body-table{
     padding: 40px 30px 50px;
 }
 
 .body-table .benefits li{
     margin-bottom: 25px;
-    
+    display: flex;
+    font-size: 15px;
 }
 
 .prices .benefits i{
     margin-right: 5px;
 }
 
-.prices .body-table .btn{
+.prices .table .body-table .btn{
     margin: 35px 0;
+    width: 100%;
 }
 
 .prices .body-table hr{
@@ -192,3 +196,24 @@ h1{
     color: #426dff;
     font-weight: bold;
 }
+
+.enterprise{
+    border: 1px solid #d0d0d3;
+    width: 100%;
+}
+
+.enterprise > .body-table{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.enterprise > .body-table > div:first-child{
+    width: 75%;
+}
+
+.enterprise > .body-table > div:last-child{
+    align-self: flex-start;
+}
+
+/* --------------------------------------------------- */
