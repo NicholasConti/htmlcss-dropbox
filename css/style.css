@@ -28,10 +28,22 @@ img{
     display: block;
 }
 
+.col-cnt{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
 .table{
     width: calc(100% / 3 - 50px);
 }
 
+h2{
+    font-size: 45px;
+    margin-bottom: 75px;
+}
 h3{
     font-size: 25px;
     margin-bottom: 25px;
@@ -135,26 +147,8 @@ h1{
     padding-top: 160px;
 }
 
-.plan .cnt-sml h2{
-    font-size: 45px;
-}
-
-.plan .cnt-sml input{
-    margin: 75px 0;
-}
-
 .plan .cnt-sml span{
     margin-right: 45px;
-}
-/* -------------------------------------- */
-/* SECTION PRICES */
-
-.prices{
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    gap: 50px;
 }
 
 .tit-table{
@@ -163,7 +157,7 @@ h1{
     border-bottom: 1px solid #d0d0d3;
 }
 
-.prices > .table{
+.plan .col-cnt > .table{
     border: 1px solid #d0d0d3;
 }
 
@@ -177,22 +171,22 @@ h1{
     font-size: 15px;
 }
 
-.prices .benefits i{
+.col-cnt .benefits i{
     margin-right: 5px;
 }
 
-.prices .table .body-table .btn{
+.col-cnt .table .body-table .btn{
     margin: 35px 0;
     width: 100%;
 }
 
-.prices .body-table hr{
+.col-cnt .body-table hr{
     width: 20%;
     color: gray;
     margin: 45px 0;
 }
 
-.prices .benefits i.fa-sharp.fa-solid.fa-check{
+.col-cnt .benefits i.fa-sharp.fa-solid.fa-check{
     color: #426dff;
     font-weight: bold;
 }
@@ -243,3 +237,11 @@ h1{
 }
 
 /* --------------------------------------------------- */
+/* SECTION BUSINESS */
+.business{
+    margin-top: 120px;
+}
+
+.business .col-cnt .table h3{
+    margin: 30px 0;
+}
