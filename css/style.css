@@ -313,5 +313,10 @@ h1{
 }
 .img-brands{
     width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+    
 }
 
