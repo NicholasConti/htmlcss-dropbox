@@ -40,20 +40,6 @@ img{
     width: calc(100% / 3 - 50px);
 }
 
-h2{
-    font-size: 45px;
-    margin-bottom: 75px;
-}
-h3{
-    font-size: 25px;
-    margin-bottom: 25px;
-}
-
-h5{
-    font-size: 15px;
-    margin-bottom: 20px;
-}
-
 .table .body-table div{
     font-size: 13px;
     color: gray;
@@ -69,20 +55,43 @@ body{
 ul{
     list-style-type: none;
 }
+
+h2{
+    font-size: 45px;
+    margin-bottom: 75px;
+}
+h3{
+    font-size: 25px;
+    margin-bottom: 25px;
+}
+
+h5{
+    font-size: 15px;
+    margin-bottom: 20px;
+}
 /* --------------------------------------------------------- */
 /* HEADER */
 
-header{
-    align-items: center;
+header.menu{
+    background-color: white;
     display: flex;
     justify-content: space-between;
     height: 80px;
-    padding: 0 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    box-shadow: 0px 1px 2px #dedede;
+}
+
+.menu nav li:not(#logo):hover{
+    border-bottom: 2px solid black;
 }
 
 nav{
     display: flex;
-    align-items: center;
+    line-height: 80px;
 }
 
 header nav ul{
@@ -101,7 +110,7 @@ header nav ul li{
 /* SECTION JUMBOTRON */
 .jumbo{
     background-color: #b4d0e7;
-    padding-top: 100px;
+    padding-top: 180px;
 }
 
 h1{
@@ -114,16 +123,11 @@ h1{
     justify-content: space-between;
     width: 100%;
     position: relative;
-    top: 75px;
+    top: 70px;
 }
 
 .jumbotron article{
     width: 30%;
-}
-
-.jumbotron article p{
-    line-height: 1.5em;
-    font-size: 17px;
 }
 
 .jumbotron article .btn{
@@ -132,7 +136,9 @@ h1{
 
 .jumbotron article i{
     font-size: 55px;
-    margin-top: 60px;
+    position: absolute;
+    left: 0;
+    bottom: 75px;
 }
 
 .img-jumbo{
@@ -379,7 +385,8 @@ h1{
     padding: 40px 0;
     border-bottom: 1px solid grey;
 }
-/* --------------------------------------------------- */
+/* ----------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------- */
 /* FOOTER */
 footer{
     background-color: black;
