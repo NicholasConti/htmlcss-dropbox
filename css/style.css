@@ -14,17 +14,17 @@
 }
 
 .cnt-big{
-    width: 65%;
+    width: 1200px;
     margin: 0 auto;
 }
 
 .cnt-sml{
-    width: 52%;
+    width: 1000px;
     margin: 0 auto;
 }
 
 img{
-    width: 100%;
+    max-width: 100%;
     display: block;
 }
 
@@ -63,7 +63,7 @@ h5{
 
 /* TYPO */
 body{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 ul{
@@ -105,7 +105,7 @@ header nav ul li{
 }
 
 h1{
-    font-size: 90px;
+    font-size: 77px;
     font-weight: 900;
 }
 
@@ -170,11 +170,12 @@ h1{
 .body-table .benefits li{
     margin-bottom: 25px;
     display: flex;
-    font-size: 15px;
+    font-size: 14px;
 }
 
 .col-cnt .benefits i{
     margin-right: 5px;
+    padding-top: 3px;
 }
 
 .col-cnt .table .body-table .btn{
@@ -256,7 +257,7 @@ h1{
 /* --------------------------------------------------- */
 /* SECTION BRANDS */
 .brands{
-    width: 100vw;
+    width: 100%;
     height: calc(100vw / 3);
     display: flex;
     justify-content: space-between;
@@ -274,7 +275,8 @@ h1{
     width: calc(100% / 3);
     height: 100%;
     background-color: #f5f5f5; 
-    padding: 50px;   
+    padding: 50px;  
+    overflow: auto; 
 }
 
 .brand{
@@ -315,7 +317,7 @@ h1{
     background-color: #ffd830;
 }
 .img-brands{
-    width: 50%;
+    max-width: 50%;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -348,11 +350,12 @@ h1{
 }
 
 .prova .cnt-sml div:first-child{
-    width: 50%;
+    width: 55%;
 }
 .prova .cnt-sml div:last-child{
-    width: 50%;
+    width: 45%;
     text-align: right;
+    padding-top: 15px;
 }
 
 .prova .cnt-sml h2{
@@ -377,3 +380,21 @@ h1{
     border-bottom: 1px solid grey;
 }
 /* --------------------------------------------------- */
+footer{
+    background-color: black;
+    padding: 100px 0 50px;
+}
+
+footer .cnt-big{
+    display: flex;
+    justify-content: space-between;
+    gap: 90px;
+}
+
+footer .cnt-big .foot-col{
+    color: white;
+}
+
+footer .cnt-big .foot-col li{
+    margin-bottom: 15px;
+}
