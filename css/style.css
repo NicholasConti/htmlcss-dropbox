@@ -6,13 +6,21 @@
 /* ---------------------------------------------- */
 /* COMMON */
 .btn{
-    color: white;
     font-size: 15px;
     padding: 10px 15px;
-    background-color: #0061ff;
-    border: none;
+    cursor: pointer;
 }
 
+.btn-w{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+.btn-b{
+    background-color: #0061ff;
+    border: none;
+    color: white;
+}
 .cnt-big{
     width: 1200px;
     margin: 0 auto;
@@ -103,6 +111,11 @@ header nav ul li{
     margin: 0px 20px;
     font-size: 15px;
 }
+
+header a{
+    text-decoration: none;
+    color: black;
+}
 /* ----------------------------------------------------------------------- */
 /* ----------------------------------------------------------------------- */
 /* MAIN */
@@ -163,6 +176,10 @@ h1{
     padding: 15px 0;
     text-align: center;
     border-bottom: 1px solid #d0d0d3;
+}
+
+.tit-table > i{
+    margin-right: 5px;
 }
 
 .plan .col-cnt > .table{
@@ -238,13 +255,9 @@ h1{
     padding: 50px;
 }
 
-#btn-partner{
-    background-color: white;
-    color: black;
-    border: 1px solid black;
+.partner .btn.btn-w{
     margin-top: 35px;
 }
-
 /* --------------------------------------------------- */
 /* SECTION BUSINESS */
 .business{
@@ -349,12 +362,6 @@ h1{
     justify-content: space-between;
 }
 
-#btn-prova{
-    background-color: white;
-    color: black;
-    padding: 10px 50px;
-}
-
 .prova .cnt-sml div:first-child{
     width: 55%;
 }
@@ -366,6 +373,11 @@ h1{
 
 .prova .cnt-sml h2{
     color: #61082b;
+}
+
+.prova .btn.btn-w{
+    border: none;
+    padding: 15px 50px;
 }
 /* --------------------------------------------------- */
 /* SECTION FAQ */
@@ -385,6 +397,20 @@ h1{
     padding: 40px 0;
     border-bottom: 1px solid grey;
 }
+
+#hidden{
+    display: none;
+}
+p#hidden{
+    padding-top: 40px;
+}
+.faq-row:hover #hidden{
+    display: block;
+}
+.faq-row:hover i{
+    display: none;
+}
+
 /* ----------------------------------------------------------------------- */
 /* ----------------------------------------------------------------------- */
 /* FOOTER */
@@ -418,5 +444,10 @@ footer .cnt-big span{
 
 footer .cnt-big span i{
     margin: 0 5px;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
 }
 /* --------------------------------------------------- */
