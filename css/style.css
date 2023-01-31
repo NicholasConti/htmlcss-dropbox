@@ -380,21 +380,36 @@ h1{
     border-bottom: 1px solid grey;
 }
 /* --------------------------------------------------- */
+/* FOOTER */
 footer{
     background-color: black;
     padding: 100px 0 50px;
 }
 
-footer .cnt-big{
+footer .cnt-big > div{
     display: flex;
     justify-content: space-between;
     gap: 90px;
 }
 
-footer .cnt-big .foot-col{
+footer .cnt-big > div .foot-col{
     color: white;
 }
 
-footer .cnt-big .foot-col li{
+footer .cnt-big > div .foot-col li{
     margin-bottom: 15px;
 }
+
+footer .cnt-big hr{
+    width: 120px;
+    margin: 110px 0 50px;
+}
+
+footer .cnt-big span{
+    color: #999999;
+}
+
+footer .cnt-big span i{
+    margin: 0 5px;
+}
+/* --------------------------------------------------- */
