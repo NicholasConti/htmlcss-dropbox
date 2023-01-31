@@ -16,11 +16,13 @@
     color: black;
     border: 1px solid black;
 }
+
 .btn-b{
     background-color: #0061ff;
     border: none;
     color: white;
 }
+
 .cnt-big{
     width: 1200px;
     margin: 0 auto;
@@ -54,7 +56,6 @@ img{
     margin-bottom: 50px;
 }
 /* --------------------------------------------------- */
-
 /* TYPO */
 body{
     font-family: 'Open Sans', sans-serif;
@@ -78,8 +79,22 @@ h5{
     margin-bottom: 20px;
 }
 /* --------------------------------------------------------- */
-/* HEADER */
+/* HOVER */
+.menu nav li:not(#logo):hover{
+    border-bottom: 2px solid black;
+}
 
+.btn.btn-b:hover{
+    background-color: #1e68e0c7;
+}
+.faq-row:hover #hidden{
+    display: block;
+}
+.faq-row:hover i{
+    display: none;
+}
+/* --------------------------------------------------------- */
+/* HEADER */
 header.menu{
     background-color: white;
     display: flex;
@@ -91,10 +106,6 @@ header.menu{
     right: 0;
     z-index: 100;
     box-shadow: 0px 1px 2px #dedede;
-}
-
-.menu nav li:not(#logo):hover{
-    border-bottom: 2px solid black;
 }
 
 nav{
@@ -119,7 +130,6 @@ header a{
 /* ----------------------------------------------------------------------- */
 /* ----------------------------------------------------------------------- */
 /* MAIN */
-
 /* SECTION JUMBOTRON */
 .jumbo{
     background-color: #b4d0e7;
@@ -157,11 +167,8 @@ h1{
 .img-jumbo{
     width: 70%;
 }
-
 /* -------------------------------------- */
-
 /* SECTION PLAN */
-
 .plan{
     padding-top: 160px;
 }
@@ -171,6 +178,7 @@ h1{
 
 .plan .cnt-sml input{
     margin-bottom: 45px;
+    margin-right: 5px;
 }
 .tit-table{
     padding: 15px 0;
@@ -224,8 +232,7 @@ h1{
 
 .enterprise > .body-table{
     display: flex;
-    justify-content: space-between;
-    
+    justify-content: space-between; 
 }
 
 .enterprise > .body-table > div:first-child{
@@ -235,13 +242,12 @@ h1{
 .enterprise > .body-table > div:last-child{
     align-self: flex-start;
 }
-
 /* --------------------------------------------------- */
 /* SECTION PARTNER */
-
 .partner{
     margin-top: 150px;
 }
+
 .partner .cnt-sml{
     display: flex;
     justify-content: space-between;
@@ -250,6 +256,7 @@ h1{
 .partner .cnt-sml .img-partner{
     width: 60%;
 }
+
 .partner .cnt-sml .description{
     width: 40%;
     padding: 50px;
@@ -269,7 +276,6 @@ h1{
 }
 /* --------------------------------------------------- */
 /* SECTION NUMBER */
-
 .number .cnt-sml{
     padding: 200px 300px 140px 0;
 }
@@ -308,7 +314,6 @@ h1{
     background-color: #d1e9cd;
     padding: 15px;
 }
-
 .sq1 > div{
     background-color: #a2d39b;
     width: 100%;
@@ -335,6 +340,7 @@ h1{
 .sq8{
     background-color: #ffd830;
 }
+
 .img-brands{
     max-width: 50%;
     position: absolute;
@@ -365,6 +371,7 @@ h1{
 .prova .cnt-sml div:first-child{
     width: 55%;
 }
+
 .prova .cnt-sml div:last-child{
     width: 45%;
     text-align: right;
@@ -388,9 +395,11 @@ h1{
 .faq .cnt-sml .faq-row h5{
     margin: 0;
 }
+
 .faq-cnt{
     border-top: 1px solid grey;
 }
+
 .faq-row{
     display: flex;
     justify-content: space-between;
@@ -404,13 +413,6 @@ h1{
 p#hidden{
     padding-top: 40px;
 }
-.faq-row:hover #hidden{
-    display: block;
-}
-.faq-row:hover i{
-    display: none;
-}
-
 /* ----------------------------------------------------------------------- */
 /* ----------------------------------------------------------------------- */
 /* FOOTER */
